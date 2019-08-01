@@ -1,3 +1,2 @@
 # JVM_app
-Simple Java_Hello app
-This is simple app to test
+This is for my devops project
