@@ -1,2 +1,2 @@
 # JVM_app
-This is for my devops project
+Sample maven app. Docker image, push and run.
