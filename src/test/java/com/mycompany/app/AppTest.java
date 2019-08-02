@@ -34,7 +34,7 @@ public class AppTest
     {
         App.main(null);
         try {
-            assertEquals("Hello MyTest!" + System.getProperty("line.separator"), outContent.toString());
+            assertEquals("Hi , App configured and verified for continuous integration and delivery by Dockerizing Jenkins Pipeline." + System.getProperty("line.separator"), outContent.toString());
         } catch (AssertionError e) {
             fail("\"message\" is not \"Hi , App configured and verified for continuous integration and delivery by Dockerizing Jenkins Pipeline.\"");
         }
