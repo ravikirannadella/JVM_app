@@ -6,7 +6,7 @@ package com.mycompany.app;
 public class App
 {
 
-    private final String message = "Hello MyTest!";
+    private final String message = "Hi , App configured and verified for continuous integration and delivery by Dockerizing Jenkins Pipeline.";
 
     public App() {}
 
