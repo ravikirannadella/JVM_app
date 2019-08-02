@@ -36,7 +36,7 @@ public class AppTest
         try {
             assertEquals("Hello MyTest!" + System.getProperty("line.separator"), outContent.toString());
         } catch (AssertionError e) {
-            fail("\"message\" is not \"Hello MyTest!\"");
+            fail("\"message\" is not \"Hi , App configured and verified for continuous integration and delivery by Dockerizing Jenkins Pipeline.\"");
         }
     }
 
